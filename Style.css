@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#ACACAC
+}
+nav{
+    text-align: center;
+    background:#B191E3 ;
+}
+
+nav button{
+    border: none;
+    background: #FF9800;
+    margin: 10px ;
+    padding: 8px;
+    border-radius: .5rem;
+}
+
+.green{
+    margin: 80px auto;
+    background:#9EFF8CFC;
+    height: 560px;
+    width: 350px;
+    border: 5px double #15722B;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 15px 15px #00AF20;
+}
+
+.red{
+    background: #FFA8A8;
+    margin: 80px auto;
+    height: 560px;
+    width: 350px;
+    border: 5px double #F61111;
+    border-radius: 1rem;
+     box-shadow: 2px 2px 15px 15px #D92222; 
+}
+
+.inp{
+    text-align: center;
+}
+
+.inputgr{
+    width: 300px;
+  height: 90px;
+  font-size: 25px;
+  color: #1C8D40;
+  text-align: right;
+  background: #6CFF46;
+  border: none;
+  padding-right: 10px;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 5px #00AF20;
+  margin: 25px auto;
+}
+.inputre{
+    width: 72vw;
+  height: 90px;
+  padding-right: 10px;
+  font-size: 25px;
+  color: #C30000;
+  text-align: right;
+  background: #FF7E7E;
+  box-shadow: 0px 0px 5px 5px #D92222;
+  border: none;
+  border-radius: 1rem;
+  margin: 25px auto;
+}
+
+.btngreen{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    color: blue;
+}
+
+
+.btngr{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 3rem;
+    background: #FFF455FC;
+    margin: 10px;
+    font-size: 15px;
+}
+.btnre{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 3rem;
+    background: #EE2B2BFC;
+     font-size: 15px;
+    margin: 10px;
+}
+
+.btngr:hover{
+    background: #B0C6FF;
+    color: white;
+}
+.redr{
+    background: #FF8500;
+    color: black;
+    font-weight: bold;
+}
+
+
+.rotate{
+    transition: 2s;
+}
