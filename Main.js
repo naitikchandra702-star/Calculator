@@ -10,8 +10,13 @@ function cleardisplay() {
 function displayminus() {
     display.value= display.value.substring(0,display.value.length-1)
 }
-function displayadd() {
-    display.value += 10;
+function factorial() {
+ 
+   let c=1;
+   for (var i = 1; i <= display.value; i++) {
+      c=c*i
+   }
+   display.value=c;
 }
 
 
